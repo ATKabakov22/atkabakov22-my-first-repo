@@ -20,5 +20,3 @@ int main()
 		}
 	
 }
-
-Boris Rusinov
