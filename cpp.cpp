@@ -2,9 +2,10 @@
 
 using namespace std;
 
+
 int main()
 {
-	float arr[29], aarr = 0, var = 0, arra = 1, a = 1;
+	float arr[29], aarr = 0, var = 0;
 
 	for (int i = 0; i < 30; i++)
 	{
@@ -30,16 +31,9 @@ int main()
 
 	for (int i = 0; i < 30; i++)
 	{
-		if (arra < aarr)
-		{
-			cout << arra << " ";
-			arra++;
-		}
-
 		if (arr[i]<aarr)
 		{
-			a++;
+			cout << i + 1 << " ";
 		}
 	}
-	cout << a;
-}	
+}
