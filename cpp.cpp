@@ -27,11 +27,9 @@ int main()
 
 	cout << "Average 11-20 = " << var/10 << "\n";
 
-	aarr=aarr/30;
-
 	for (int i = 0; i < 30; i++)
 	{
-		if (arr[i]<aarr)
+		if (arr[i]<aarr/30)
 		{
 			cout << i + 1 << " ";
 		}
