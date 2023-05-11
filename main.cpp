@@ -1,40 +1,5 @@
 #include"Header.h"	
 
-/*int main()
-{
-	int n, arr[30], Even[30], Odd[30], iEven = 0, iOdd = 0;
-	cin >> n;
-
-
-
-	for (int i = 0; i < n; i++)
-	{
-		cin >> arr[i];
-
-		if (arr[i] % 2 == 0)
-		{
-			Even[iEven] = arr[i];
-			iEven++;
-		}
-		else
-		{
-			Odd[iOdd] = arr[i];
-			iOdd++;
-		}
-	}
-	cout << "Even elements are: ";
-	for (int j = 0; j < iEven; j++)
-	{
-		cout << Even[j] << " ";
-	}
-	cout << endl;
-	cout << "Odd elements are: ";
-
-	for (int j = 0; j < iOdd; j++)
-	{
-		cout << Odd[j] << " ";
-	}
-}*/
 
 int main()
 {
