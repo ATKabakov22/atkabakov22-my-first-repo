@@ -3,31 +3,27 @@
 
 int main()
 {
-	float arr[10], arr1[10];
-	int b, mb = 0;
+  float arr[30], x;
+	int b, xb = 0;
+	
+	cin >> b >> x;
 
-	cin >> b;
-
-	for (int i = 0; i < b; i++)
+	for ( int i = 0; i < b; i++)
 	{
-		cin >> arr[i] >> arr1[i];
+		cin >> arr[i];
+
+		if (arr[i]==x)
+		{
+			xb++;
+		}
 	}
 
-	for (int i = 0; i < b; i++)
+	if (b>30||b<0|| x>200 || x < 0 )
 	{
-		if (arr[i]<arr1[i])
-		{
-			cout << "Arr3[" << mb << "] = " << arr[i] << "\n";
-			mb++;
-			cout << "Arr3[" << mb << "] = " << arr1[i] << "\n";
-			mb++;
-		}
-		else
-		{
-			cout << "Arr3[" << mb << "] = " << arr1[i] << "\n";
-			mb++;
-			cout << "Arr3[" << mb << "] = " << arr[i] << "\n";
-			mb++;
-		}
+		cout << "Incorrect input";
+	}
+	else
+	{
+		cout << xb;
 	}
 }
