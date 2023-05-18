@@ -15,7 +15,7 @@ body{
 }
 
 .nav1{
-    width: 100vw;
+    width: 20vw;
     height: 20vw;
     background-color: rgb(245, 147, 147);
     display: flex;
@@ -32,5 +32,12 @@ body{
 .nav1>a{
     text-decoration: none;
     color: rgb(32, 116, 116);
+    font-size: 70px;
+}
+
+
+.divnav>p{
+    text-decoration: none;
+    color: rgb(1, 20, 20);
     font-size: 70px;
 }
