@@ -1,29 +1,24 @@
-#include"Header.h"	
-
+#include"Header.h"
 
 int main()
 {
-  float arr[30], x;
-	int b, xb = 0;
-	
-	cin >> b >> x;
+	char arr[100], pr;
+	int br;
 
-	for ( int i = 0; i < b; i++)
+	cin.getline(arr, 100);
+	cin >> pr;
+
+	br = strlen(arr);
+
+	for (int i = 0; i < br; i++)
 	{
-		cin >> arr[i];
 
-		if (arr[i]==x)
-		{
-			xb++;
+		if (arr[i]==pr)
+		{	
 		}
-	}
-
-	if (b>30||b<0|| x>200 || x < 0 )
-	{
-		cout << "Incorrect input";
-	}
-	else
-	{
-		cout << xb;
+		else
+		{
+			cout << arr[i];
+		}
 	}
 }
