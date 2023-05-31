@@ -2,23 +2,27 @@
 
 int main()
 {
-	char arr[100], pr;
-	int br;
+	int arr[100], br, ch;
+	bool bol = 1;
 
-	cin.getline(arr, 100);
-	cin >> pr;
-
-	br = strlen(arr);
+	cin >> br >> ch;
 
 	for (int i = 0; i < br; i++)
 	{
+		cin >> arr[i];
 
-		if (arr[i]==pr)
-		{	
-		}
-		else
+		if (arr[i] == ch)
 		{
-			cout << arr[i];
+			bol = 0;
 		}
+	}
+
+	if (bol==1)
+	{
+		cout << "Yes";
+	}
+	else
+	{
+		cout << "No";
 	}
 }
