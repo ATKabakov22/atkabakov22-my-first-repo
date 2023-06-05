@@ -26,4 +26,3 @@ int main()
 		cout << "No";
 	}
 }
-gtipewthw
