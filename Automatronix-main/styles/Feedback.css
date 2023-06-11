@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(21, 21, 21);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    height: 50.4vw;
+}
+/* Add color to the background. */ 
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    height: 6vw;
+    flex-direction: column;
+    align-items: center;
+}
+/* Position the navbar to the centert on the top. */
+
+.navbar-container{
+    display: flex;
+    width: 100%;
+}
+/* Give the "navbar-container" position. */
+
+.navbar-subcontainer 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 75rem;
+    align-items: center;
+    padding-left: 12rem;
+    margin-top: 3rem;
+}
+/* Center and make space between the text on the navbar. */
+
+.navbar-subcontainer >a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    font-family: "consolas" , sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+
+    border-radius: 0.6vw;
+}
+/* Give the text on the navbar color, size and style. */
+
+.navbar-subcontainer >a:hover
+{
+    background-color: rgb(154, 154, 154);
+    transition: 0.7s;
+}
+
+#nav_underline
+{
+    text-decoration: underline aliceblue;
+}
+/* Give the underline color. */
+
+.nav_logo
+{
+    height: 5vw;
+    margin-left: 3vw;
+    width: 5vw;
+    margin-top: 2rem;
+
+    background-color: aliceblue;
+    border-radius: 2.2vw;
+}
+/* Position the logo in the top left corner and give it size. */
+
+.nav_line
+{
+    height: 0.5vw;
+    width: 75vw;
+    padding-top: 0.5rem;
+
+    background-color: rgb(255, 255, 255);
+   
+    margin-top: 1rem;
+    border-radius: 0.5vw;
+}
+/* Give the line color, positioning and size. */
+
+header
+{
+    justify-content: center;
+    display: flex;
+    
+    font-size: 7rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+/* Give the header size, style, color and position it. */
+
+.main_div
+{
+    justify-items: center;
+    justify-content: center;
+
+    background-color:rgb(255, 255, 255);
+
+    height: 35vw;
+    width: 70vw;
+
+    margin-left: 15vw;
+    margin-top: 10rem;
+    border-radius: 4rem;
+}
+/* Give the "main_div" size, background color, position it and circle it. */
+
+.div_text
+{
+    display: flex;
+}
+
+form
+{
+    margin-left: 3rem;
+}
+/* Position the form into the left. */
+
+.form_text
+{
+    font-family: "consolas" , sans-serif;
+    font-size: 2rem;
+}
+/* Give the "form_text" size. */
+
+.input
+{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+
+    height: 3rem;
+    width: 25vw;
+
+    border-radius: 2vw;
+}
+/* Position the input, give it size and circle it. */
+
+.location_text
+{
+    font-family: "consolas" , sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+/* Position the input, give it size and circle it. */
+
+#location_header
+{
+    font-size: 2.3vw;
+    margin: 0;
+}
+/* Give the "location_header" size. */
+
+#text
+{
+    height: 10rem;
+}
+/* Position the text. */
+
+#submit:hover
+{
+    background-color: rgb(154, 154, 154);
+    transition: 0.7s;
+}
+/* Give the submit color, background color when you hover. */
+
+#submit
+{
+    border-radius: 1.5vw;
+    height: 4vw;
+    width: 6vw;
+
+    font-family: "consolas" , sans-serif;
+    font-size: 1vw;
+
+    color: rgb(0, 0, 0);
+    background-color: a;
+}
+/* Give the submit color, background color, style, size, position and circle it. */
+
+
+.div_line
+{
+    height: 30rem;
+    width: 0.3vw;
+
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 0.5rem;
+
+    background-color: black;
+}
+/* Give the the line in the "Input" position, size and background color. */
+
+footer
+{
+    height: 9vw;
+    display: flex;
+
+    position: relative;
+    top: 5vw;
+
+    background-color: black;
+
+}
+/* Give the footer position, size and background color. */
+
+
+footer>p
+{
+    font-family: "consolas" , sans-serif;
+    color: aliceblue;
+}
+/* Give the text on the footer color and style. */
+
+
+.footer_contacts
+{
+    font-size: 2vw;
+    margin-left: 4vw;
+}
+/* Give the "contacts" on the footer size and position. */
+
+
+.footer_text
+{
+    font-size: 2vw;
+    padding-top: 1.5rem;
+    margin-left: 42vw;
+}
+/* Give the "text" on the footer size and position. */

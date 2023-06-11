@@ -1,0 +1,190 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(21, 21, 21);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    height: 50.4vw;
+}
+/* Add color to the background. */ 
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    height: 6vw;
+    flex-direction: column;
+    align-items: center;
+}
+/* Position the navbar to the centert on the top. */
+
+
+.navbar-container{
+    display: flex;
+    width: 100%;
+}
+/* Give the "navbar-container" position. */
+
+.navbar-subcontainer 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 75rem;
+    align-items: center;
+    padding-left: 12rem;
+    margin-top: 3rem;
+}
+/* Center and make space between the text on the navbar. */
+
+
+.navbar-subcontainer >a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    font-family: "consolas" , sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    border-radius: 0.6vw;
+}
+/* Give the text on the navbar color, size and style. */
+
+.navbar-subcontainer >a:hover
+{
+    background-color: rgb(154, 154, 154);
+    transition: 0.7s;
+}
+
+#nav_underline
+{
+    text-decoration: underline aliceblue;
+}
+/* Give the underline color. */
+
+.nav_logo
+{
+    height: 5vw;
+    margin-left: 3vw;
+    width: 5vw;
+    margin-top: 2rem;
+
+    background-color: aliceblue;
+    border-radius: 2.2vw;
+}
+/* Position the logo in the top left corner and give it size. */
+
+.nav_line
+{
+    height: 0.5vw;
+    width: 75vw;
+
+    background-color: aliceblue;
+    
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0.5vw;
+}
+/* Give the line color, positioning and size. */
+
+header
+{
+    justify-content: center;
+    display: flex;
+    
+    font-size: 7rem;
+    font-family: "consolas" , sans-serif;
+    color: aliceblue;
+
+    margin-top: 3vw;
+}
+/* Give the header size, style, color and position it. */
+
+.main_div
+{
+    justify-items: center;
+    justify-content: center;
+
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+/* Give the main_div position it. */
+
+
+.main_text
+{
+    font-family: "consolas" , sans-serif;
+    color: aliceblue;
+    font-size: 3vw;
+
+    position: absolute;
+    left: 10vw;
+
+}
+/* Give the main_text size, style, color. */
+
+#image
+{
+    height: 20rem;
+    border-radius: 3vw;
+
+    margin-top: 10rem;
+    margin-left: 15rem;
+}
+/* Give the image size and position. */
+
+#image1
+{
+    height: 20rem;
+    border-radius: 3vw;
+
+    margin-left: 10rem;
+    padding-right: 2rem;
+    margin-top: 22rem;
+}
+/* Give the image size and position. */
+
+
+footer
+{
+    height: 9vw;
+    display: flex;
+
+    position: relative;
+    top: 8rem;
+
+    background-color: black;
+
+}
+/* Give the footer position, size and background color. */
+
+
+footer>p
+{
+    font-family: "consolas" , sans-serif;
+    color: aliceblue;
+}
+/* Give the text on the footer color and style. */
+
+
+
+.footer_contacts
+{
+    font-size: 2vw;
+    margin-left: 4vw;
+}
+/* Give the "contacts" on the footer size and position. */
+
+
+
+.footer_text
+{
+    font-size: 2vw;
+    padding-top: 1.5rem;
+    margin-left: 42vw;
+}
+/* Give the "text" on the footer size and position. */
